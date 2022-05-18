@@ -1,0 +1,56 @@
+/*Commentaires en CSS*/
+*{
+    /*l'étoile signifie que l'on sélectionne tout le document, sélecteur universel*/
+    text-align: right;
+}
+
+body{
+    background: #f5deb3; /*couleur de fond*/
+}
+header{
+    background-color: #900c3f;
+    color: white; /*couleur du texte*/
+    height: 100px;
+}
+/*pas de point pour les balises html*/
+nav{
+
+    background-color: #daf7a6;
+    height: 60px;
+}
+
+section{
+    background-color: navy;
+    height: 550px;
+    color:yellow ;
+
+}
+
+article{
+    background-color: #ff5733;
+    height: 66px;
+}
+ footer{
+     background-color: #daf7a6;
+     height:75px;
+ }
+
+ nav, footer{
+     /*séparer les balises par des virgules*/
+     color:#a93226
+     font-size: 20px;
+ }
+ /*pour choisir une classe en css mettre un point avant le nom*/
+  .jaune
+ {
+     background-color: yellow;
+ }
+/* Pour cibler l'id j'utilise un # */
+ #noir{
+     background-color:black;
+     color:#fff;
+     text-align: justify;
+     width: 200px;
+     height: 150px
+     font-size: 20px;
+ } 

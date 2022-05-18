@@ -1,0 +1,26 @@
+/*/!\ les commentaires ne se font pas de la même manière qu'en HTml*/
+/*Les développeurs utilisent un reset pour uniformiser la mise en page*/
+/*Prenez l'habitude de tester votre fichier style en mettant un background-color sur la balise body*/
+
+selecteur{
+      propriété: valeur;
+}
+.class{
+    /*on peut mettre plusieurs classes pour une balise et une classe pour plusieurs balises*/
+
+    property:valeur;
+    propriété:valeur;
+    propriété:valeur;
+
+}
+
+#id{/*On utilise les id de manière unique.On ne donne pas le même nom d'id à plusieurs balises,
+    id utilisé pour les ancres*/
+    propriété=valeur;
+
+}
+
+.class1 .class2 .class{
+    /*On parle de la classe3 qui est dans la class2 qui est dans class1*/
+    propriété:valeur;
+}

@@ -1,0 +1,51 @@
+body{
+    margin:0 auto;
+    /*margin:0 auto 0 auto;=> haut droit bas gauche
+    margin:0;
+    margin: 0 auto 1; (gauche-> auto)
+    */
+    background-color: antiquewhite;
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightsteelblue;
+}
+p{
+    background-color: mediumaquamarine;
+   /* propriété suivante à tester*/
+   display: inline;
+}
+p span{/*sélectionne les span contenus dans des p*/
+    background-color: yellow;
+
+}
+.boite{
+    height: 11vh;
+    width: 15vh;
+    padding: 5vh;
+    background:url(../img/church.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    margin: 2vh;
+    float: left;
+    transition: margin 0.5s ;
+    /*effet flottant, permet de placer des balises côte à côte alors que selon le flux
+    du web standard les éléments se placent les uns au-dessus des autres.*/
+}
+/*https://outils-css.aliasdmc.fr/-unites-de-longueur-css.php
+EM : relative to the parent element
+REM : relative to the root element (HTML tag)
+% : relative to the parent element
+VH : relative to the viewport's height
+VW :relative to the viewport's width
+*/
+.boite:hover{
+    /*la pseudo-class :hover modifie l'affichage au survol de la souris*/
+    margin-top: 10vh; 
+}
+.clear{
+    clear: both;
+    /*supprime l'effet flottant*/
+}
