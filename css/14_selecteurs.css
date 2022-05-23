@@ -1,0 +1,78 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    background: #000;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    /*position à partir du haut de l'écran*/
+    left: 0;
+   /* margin: 0 0 20px 40px;*/
+}
+nav a{
+    /*tous les liens à l'intérieur de la balise nav*/
+    float: left;/*effet flottant à gauche*/
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.7rem;
+    padding: 0em 2em;/*marges intérieures: haut, droit,bas, gauche*/
+    font-size: 1.2em;
+    transition: 2s;/*temps de transition lors du hover*/
+}
+nav a:hover{
+    background: rgb(246,191,246);
+    color: #000;
+
+}
+/*1er container*/
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background: #fff;
+    padding: 2em;
+}
+mark{
+    background: #ebcdeb;
+}
+/*2ème container1*/
+.container1{
+    width: 70%;
+    margin: 2% auto;
+    background: #f1fcde;
+    padding: 2%;
+}
+.container2,.container3{
+    width: 44.5%;
+    background: #f1fcde;
+    padding: 2%;
+    float: left;
+}
+.container2{
+    margin-right: 1.5%;
+}
+/*5eme container*/
+.container4{
+    margin-top: 2em;
+}
+.clear{
+    clear: both;
+}
+.container3 ol li:nth-of-type(11){
+    border: 1px solid crimson;
+}
+.container3 ol li:/*first-child*/{
+    font-weight: 700;
+}
+.container3 ol li:nth-of-type(7){
+    opacity: 0.5;
+}
+.container3 ol li:last-child{
+    color: darkred;
+}
+/*Exercice: bordure sur li "border" font-weight sur li "font_weight"
+opacity sur li "opacity" color sur "!important"*/
+
+

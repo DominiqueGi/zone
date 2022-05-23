@@ -1,0 +1,30 @@
+/*media queries permettent de réarranger la disposition du site en fonction des tailles du navigateur
+on peut faire une feuille de style standard et une css.La zone est rouge; Si l'écran est de plus de
+768px ey jusqu'a 992 la zonz est orange.*/
+
+.zone-adaptative{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+@media (min-width;768px){
+    .zone-adaptative{
+        width: 750px;
+        background: orange;
+    }
+}
+
+@media (min-width: 992px){
+    .zonz-adaptative{
+        width: 970px;
+        background: blue;
+        
+    }
+}
+
+@media (min-width:1200px){
+    .zone-adaptative{
+        width: 1170px;
+        background: green;
+    }
+}

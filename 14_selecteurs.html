@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--Les liens permettent de se déplacer dans les  rubriques d'un site.
+        Ce sont des liens de navigation et on les regroupe dans un menu (barre de 
+        navigation)-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de navigation et propriétés CSS.</title>
+    <link rel="stylesheet" href="css/14_selecteurs.css">
+</head>
+<body>
+    <nav>
+        <!-- La balise nav est dédiée à la navigation du site-->
+        <a href="#">Home</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">Faq</a>
+        <a href="#">nous contacter</a>
+
+    </nav>
+    <section class="container">
+        <h3>Aide mémoire des sélecteurs déjà vus</h3>
+        <ul>
+            <li>
+               <mark>*</mark>
+            </li>
+            <li>
+                <mark>.ma-jolie-nav</mark>sélectionne tous les élements ayant le nom de
+                classe "ma-jolie-nav"
+            </li>
+            <li>
+                <mark>#nom-unique-id</mark>sélectionne l'élément ayant le nom d"id
+                "nom-unique-id"
+            </li>
+            <li>
+                <mark>div, article aside</mark>sélectionne toutes les balises &lt;div>,
+                &lt;article> et &lt;aside>
+                            </li>
+               <li>
+                   <mark>nav a</mark>Sélectionne tous les liens de la nav et active une
+                   animation lors du survol de la souris
+              </li>
+        </ul>
+               <br />
+    </section>
+    <div class="container1">
+        <section class="container2">
+            <h3>Propriétés CSS utilisées dans cette page.</h3>
+            <h4>Décrivez leur usage et leurs valeurs possibles en fonction 
+                de ce que vous avez déjà vu</h4>
+                <ol>
+                    <li>
+                        background : <!--on peut attribuer plusieurs valeurs comme :
+                            repeat, url(''),fixed..-->
+                    </li>
+                    <li>color: </li>
+                    <li>float:</li>
+                    <li>font-family:</li>
+                    <li>font-size:</li>
+                    <li>height<!--unités de hauteur vh,vw, px, %,--></li>
+                    <li>left:</li>
+                    <li>line-height <!--hauteur de l'interligne--></li>
+                    <li>margin: <!--nombre avec des unités :em, rem, px, %--></li>
+                    <li>padding :<!--idem-->
+                   <li> position :<!--on a utilisé que fixed et relative pour
+                l'instant-->></li>
+                   <li>text-align :</li>
+                   <li>text-decoration</li><!--changement des valeurs héritées(
+                       ici le souligné est supprimé-->
+                   <li>top :</li> 
+                    <li>transition :</li>
+                    <li>width :<!--largeur de l'élément par rapport à la taille
+                    du parent ,on indique une valeur relative (%; rem ...)ou
+                 fixe(px)--></li>
+                   
+                </ol>
+                    </section>
+                    <section class="container3"></section>
+                    <h3>Propriétés CSS à rechercher.</h3>
+                    <h4>recherchez les propriétés ci-dessous, testez cette page
+                        depuis la console de debbugage(F12 gans le navigateur).
+                    </h4>
+                    <ol>
+                        <li>
+                            font-weight :<!--Définit la graisse de la police, on peut
+                            utiliser normal, bold, bolder, lighter ou des valeurs de
+                        1 à 1000 même avec des virgules-->
+                        </li>
+                        <li>
+                            letter-spacing: <!--Définit l'espace entre les mots, on
+                            peut mettre normal, em, px, % et des virgules-->
+                        </li>
+                        <li>
+                            text-shadow :<!--Axe des x, des y, fondu, couleur,1px 1px 2px
+                            black-->
+                        </li>
+                        <li>
+                        background-image :<!--Motif an arrière-plan, dégradé ou une url
+                        d'image, on peut en mettre plusieurs: linear-gradient(rgba(0,0,255,0;5), rgba
+                        (255,255,0, 0;5))-->
+                        </li>
+                        <li>
+                            background-size <!--définit la taille du fond, cover ou contain, soit
+                            une valeur ou deux (largeur, hauteue en %, em, px,)-->
+                        </li>
+                        <li>
+                            opacity:
+                        </li>
+                        <li>
+                            border-style<!--dotted, dashed, solid, double, groove, ridge-->
+                        </li>
+                        <li>
+                            box-shadow: <!--Crée une ombre à la balise, x/y/blur-raduis/spread-radius/
+                            color 2px 2px 2px 1px rgba (0, 0, 0, 0.2)-->
+                        </li>
+                        <li>
+                            list-style-image<!--Remplace la puce d'un li par une image, list-style-ima
+                            ge:url('test-gif')-->
+
+                        </li>
+                        <li>
+                            border:
+                        </li>
+                        <li>
+                            border-raduis: <!--Crée des angles arrondis avec em, px, %, ordre:
+                            , haut: à gauche, haut droite, bas droite, bas gauche-->
+                        </li>
+                        <li>
+                            border-width:<!--px em, thin, medium, thick, ordre comme pour padding-->
+                        </li>
+                        <li>
+                            font-variant:<!--small caps-->
+                        </li>
+                        <li>
+                            background-color : <!--Couleur d'arrière-plan de la balise,
+                            accepte rgb, rgba, hexa,couleur enanglais, hsl,hsla (en %)-->
+                        </li>
+                        <li>
+                            !Important :<!--A mettre à la fin d'une ligne pour forcer
+                            le navigateur à l'utiliser, il ne sera pas surchargé, à 
+                        utiliser que si l'on est forcé, peut ne pas fontionner en cas 
+                    d'import de bibliothèque-->
+                        </li>
+                    </ol>
+                    </section>
+                    <div class="clear"></div>
+                    </div><!--fin div container1-->
+                    <section class="container container4">
+                        <h3>Pour aller plus loin en CSS</h3>
+                        <ul>
+                            <li>
+                                <li><a href="file:///C:/xampp/htdocs/html/14_selecteur.html#">Mon site officiel</a></li>
+                            </li>
+                            <li>
+                                <a href="https://www.w3schools.com/css/default.asp">Le site de web school 3</a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://flukeout.github.io/">Jeu avec les sélecteurs css </a>
+                            </li>
+                            <li>
+                                <a href="https://flexboxfroggy.com/#fr"></a>
+                            </li>
+                            <li>
+                                <a href="https://viewportsizer.com/">Differente taille d'écran</a>
+                            </li>
+                            <li>
+                                <a href="https://learnlayout.com/">Tuto simple en français</a>
+                            </li>
+                            <li>
+                                <a href="https://purecss.io/">Encore des tutos</a>
+                            </li>
+                        </ul>
+                    </section>
+                </body>
+                </html>
